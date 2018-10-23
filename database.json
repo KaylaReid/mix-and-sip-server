@@ -1,0 +1,588 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "kayla",
+        "password": "123",
+        "fullName": "Kayla Reid"
+      },
+      {
+        "id": 2,
+        "username": "ricky",
+        "password": "123",
+        "fullName": "Ricky Bruner"
+      },
+      {
+        "username": "shan",
+        "password": "123",
+        "fullName": "Shannon Reid",
+        "id": 3
+      },
+      {
+        "username": "sampops",
+        "password": "123",
+        "fullName": "Sam Pope",
+        "id": 4
+      },
+      {
+        "username": "asdf",
+        "password": "asdfasdf",
+        "fullName": "asdf",
+        "id": 5
+      },
+      {
+        "username": "hjones",
+        "password": "123",
+        "fullName": "Heather Jones",
+        "id": 6
+      }
+    ],
+    "drinks": [
+      {
+        "name": "skittles",
+        "description": "soooooo yummy",
+        "directions": "stir and pour over ice ",
+        "userId": 1,
+        "id": 2
+      },
+      {
+        "name": "ice and diet coke",
+        "description": "its soo yummy!",
+        "directions": "pour over ice",
+        "userId": 2,
+        "id": 5
+      },
+      {
+        "name": "mojito",
+        "description": "Light and refreshing",
+        "directions": "Muddle mint, lime juice, and simple syrup. Add run, ice, then top with soda, and garnish with lime and mint leaf",
+        "userId": 1,
+        "id": 6
+      },
+      {
+        "name": "coconut rum",
+        "description": "SOOOO tasty",
+        "directions": "Shake ice, lime, simple syrup, and coconut rum together. Pour over ice and then top with tonic and garnish with lime!",
+        "userId": 1,
+        "id": 7
+      },
+      {
+        "name": "midori sour",
+        "description": "A bright green, sweet and sour drink!",
+        "directions": "Add all ingredients except the pop stir in a cup and top with 3 ice cubes, cherry, and pop.",
+        "userId": 1,
+        "id": 8
+      },
+      {
+        "name": "sangria",
+        "description": "a delicious mixed drink with apples, oranges, and lemons!",
+        "directions": "Add red wine, brandy and orange juice and stir all the ingredients together.\nRefrigerate sangria for 3 to 4 hours, up to overnight, before serving.",
+        "userId": 1,
+        "id": 9
+      },
+      {
+        "name": "gin and tonic",
+        "description": "so yummy",
+        "directions": "shake",
+        "userId": 1,
+        "id": 10
+      }
+    ],
+    "drinkIngredients": [
+      {
+        "drinkId": 2,
+        "ingredientId": 14,
+        "amount": "2 oz.",
+        "userId": 1,
+        "id": 4
+      },
+      {
+        "drinkId": 2,
+        "ingredientId": 21,
+        "amount": "2 oz.",
+        "userId": 1,
+        "id": 5
+      },
+      {
+        "drinkId": 2,
+        "ingredientId": 15,
+        "amount": "5 ",
+        "userId": 1,
+        "id": 6
+      },
+      {
+        "drinkId": 5,
+        "ingredientId": 17,
+        "amount": "6 oz.",
+        "userId": 2,
+        "id": 21
+      },
+      {
+        "drinkId": 5,
+        "ingredientId": 18,
+        "amount": "at least 5",
+        "userId": 2,
+        "id": 22
+      },
+      {
+        "drinkId": 6,
+        "ingredientId": 16,
+        "amount": "sf",
+        "userId": 1,
+        "id": 28
+      },
+      {
+        "drinkId": 6,
+        "ingredientId": 30,
+        "amount": "1 oz",
+        "userId": 1,
+        "id": 29
+      },
+      {
+        "drinkId": 6,
+        "ingredientId": 23,
+        "amount": "5 leaves",
+        "userId": 1,
+        "id": 30
+      },
+      {
+        "drinkId": 6,
+        "ingredientId": 31,
+        "amount": "2 oz.",
+        "userId": 1,
+        "id": 31
+      },
+      {
+        "drinkId": 6,
+        "ingredientId": 3,
+        "amount": "2 slices",
+        "userId": 1,
+        "id": 32
+      },
+      {
+        "drinkId": 7,
+        "ingredientId": 30,
+        "amount": "1 oz.",
+        "userId": 1,
+        "id": 34
+      },
+      {
+        "drinkId": 7,
+        "ingredientId": 3,
+        "amount": "2 slices",
+        "userId": 1,
+        "id": 35
+      },
+      {
+        "drinkId": 7,
+        "ingredientId": 2,
+        "amount": "4 oz.",
+        "userId": 1,
+        "id": 36
+      },
+      {
+        "drinkId": 8,
+        "ingredientId": 28,
+        "amount": "1.5 oz.",
+        "userId": 1,
+        "id": 37
+      },
+      {
+        "drinkId": 8,
+        "ingredientId": 33,
+        "amount": "2 oz.",
+        "userId": 1,
+        "id": 38
+      },
+      {
+        "drinkId": 8,
+        "ingredientId": 14,
+        "amount": "1 oz.",
+        "userId": 1,
+        "id": 39
+      },
+      {
+        "drinkId": 8,
+        "ingredientId": 34,
+        "amount": "1.5 oz.",
+        "userId": 1,
+        "id": 40
+      },
+      {
+        "drinkId": 8,
+        "ingredientId": 15,
+        "amount": "3",
+        "userId": 1,
+        "id": 41
+      },
+      {
+        "drinkId": 8,
+        "ingredientId": 35,
+        "amount": "1",
+        "userId": 1,
+        "id": 42
+      },
+      {
+        "drinkId": 7,
+        "ingredientId": 32,
+        "amount": "2 oz.",
+        "userId": 1,
+        "id": 46
+      },
+      {
+        "drinkId": 9,
+        "ingredientId": 41,
+        "amount": "1 bottle ",
+        "userId": 1,
+        "id": 47
+      },
+      {
+        "drinkId": 9,
+        "ingredientId": 43,
+        "amount": "1",
+        "userId": 1,
+        "id": 48
+      },
+      {
+        "drinkId": 9,
+        "ingredientId": 42,
+        "amount": "1 ",
+        "userId": 1,
+        "id": 49
+      },
+      {
+        "drinkId": 9,
+        "ingredientId": 44,
+        "amount": "5 oz",
+        "userId": 1,
+        "id": 50
+      },
+      {
+        "drinkId": 9,
+        "ingredientId": 14,
+        "amount": "4 oz",
+        "userId": 1,
+        "id": 51
+      },
+      {
+        "drinkId": 9,
+        "ingredientId": 45,
+        "amount": "2",
+        "userId": 1,
+        "id": 52
+      },
+      {
+        "drinkId": 10,
+        "ingredientId": 1,
+        "amount": "2 oz",
+        "userId": 1,
+        "id": 53
+      },
+      {
+        "drinkId": 10,
+        "ingredientId": 2,
+        "amount": "4 oz",
+        "userId": 1,
+        "id": 54
+      },
+      {
+        "drinkId": 10,
+        "ingredientId": 3,
+        "amount": "1",
+        "userId": 1,
+        "id": 55
+      }
+    ],
+    "ingredients": [
+      {
+        "onHand": true,
+        "name": "gin",
+        "typeId": 1,
+        "userId": 1,
+        "id": 1
+      },
+      {
+        "onHand": true,
+        "name": "tonic",
+        "typeId": 2,
+        "userId": 1,
+        "id": 2
+      },
+      {
+        "onHand": true,
+        "name": "lime",
+        "typeId": 3,
+        "userId": 1,
+        "id": 3
+      },
+      {
+        "onHand": false,
+        "name": "vodka",
+        "typeId": 1,
+        "userId": 1,
+        "id": 4
+      },
+      {
+        "onHand": false,
+        "name": "vodka",
+        "typeId": 1,
+        "userId": 2,
+        "id": 5
+      },
+      {
+        "onHand": false,
+        "name": "orange peal",
+        "typeId": 3,
+        "userId": 1,
+        "id": 8
+      },
+      {
+        "onHand": false,
+        "name": "coke",
+        "typeId": 2,
+        "userId": 1,
+        "id": 9
+      },
+      {
+        "onHand": true,
+        "name": "club soda",
+        "typeId": 2,
+        "userId": 1,
+        "id": 10
+      },
+      {
+        "onHand": false,
+        "name": "pop",
+        "typeId": 2,
+        "userId": 1,
+        "id": 11
+      },
+      {
+        "onHand": false,
+        "name": "sprite",
+        "typeId": 2,
+        "userId": 1,
+        "id": 14
+      },
+      {
+        "onHand": false,
+        "name": "ice cubes",
+        "typeId": 3,
+        "userId": 1,
+        "id": 15
+      },
+      {
+        "onHand": false,
+        "name": "soda water",
+        "typeId": 2,
+        "userId": 1,
+        "id": 16
+      },
+      {
+        "onHand": false,
+        "name": "coke",
+        "typeId": 2,
+        "userId": 2,
+        "id": 17
+      },
+      {
+        "onHand": false,
+        "name": "ice cubes",
+        "typeId": 3,
+        "userId": 2,
+        "id": 18
+      },
+      {
+        "onHand": false,
+        "name": "diet coke",
+        "typeId": 2,
+        "userId": 2,
+        "id": 19
+      },
+      {
+        "onHand": true,
+        "name": "bacardi dragon berry rum",
+        "typeId": 1,
+        "userId": 1,
+        "id": 21
+      },
+      {
+        "onHand": false,
+        "name": "white wine",
+        "typeId": 1,
+        "userId": 1,
+        "id": 22
+      },
+      {
+        "onHand": false,
+        "name": "mint",
+        "typeId": 3,
+        "userId": 1,
+        "id": 23
+      },
+      {
+        "onHand": true,
+        "name": "radish",
+        "typeId": 3,
+        "userId": 1,
+        "id": 24
+      },
+      {
+        "onHand": false,
+        "name": "lime juice",
+        "typeId": 3,
+        "userId": 1,
+        "id": 28
+      },
+      {
+        "onHand": false,
+        "name": "lime peel",
+        "typeId": 3,
+        "userId": 1,
+        "id": 29
+      },
+      {
+        "onHand": true,
+        "name": "simple syrup",
+        "typeId": 2,
+        "userId": 1,
+        "id": 30
+      },
+      {
+        "onHand": true,
+        "name": "rum",
+        "typeId": 1,
+        "userId": 1,
+        "id": 31
+      },
+      {
+        "onHand": true,
+        "name": "coconut rum",
+        "typeId": 1,
+        "userId": 1,
+        "id": 32
+      },
+      {
+        "onHand": true,
+        "name": "sour mix",
+        "typeId": 2,
+        "userId": 1,
+        "id": 33
+      },
+      {
+        "onHand": false,
+        "name": "midori melon liqueur",
+        "typeId": 1,
+        "userId": 1,
+        "id": 34
+      },
+      {
+        "onHand": false,
+        "name": "maraschino cherry",
+        "typeId": 3,
+        "userId": 1,
+        "id": 35
+      },
+      {
+        "onHand": false,
+        "name": "strawberry",
+        "typeId": 3,
+        "userId": 1,
+        "id": 36
+      },
+      {
+        "onHand": false,
+        "name": "sweet tea",
+        "typeId": 2,
+        "userId": 1,
+        "id": 37
+      },
+      {
+        "onHand": false,
+        "name": "blueberry",
+        "typeId": 3,
+        "userId": 1,
+        "id": 38
+      },
+      {
+        "onHand": false,
+        "name": "whiskey",
+        "typeId": 1,
+        "userId": 1,
+        "id": 39
+      },
+      {
+        "onHand": false,
+        "name": "tennessee fire",
+        "typeId": 1,
+        "userId": 1,
+        "id": 40
+      },
+      {
+        "onHand": false,
+        "name": "red wine",
+        "typeId": 1,
+        "userId": 1,
+        "id": 41
+      },
+      {
+        "onHand": false,
+        "name": "lemon",
+        "typeId": 3,
+        "userId": 1,
+        "id": 42
+      },
+      {
+        "onHand": false,
+        "name": "orange",
+        "typeId": 3,
+        "userId": 1,
+        "id": 43
+      },
+      {
+        "onHand": false,
+        "name": "brandy",
+        "typeId": 1,
+        "userId": 1,
+        "id": 44
+      },
+      {
+        "onHand": false,
+        "name": "apple",
+        "typeId": 3,
+        "userId": 1,
+        "id": 45
+      }
+    ],
+    "toGetIngredients": [
+      {
+        "userId": 1,
+        "ingredientId": 22,
+        "id": 3
+      },
+      {
+        "userId": 1,
+        "ingredientId": 39,
+        "id": 7
+      },
+      {
+        "userId": 1,
+        "ingredientId": 40,
+        "id": 9
+      }
+    ],
+    "types": [
+      {
+        "id": 1,
+        "name": "Base"
+      },
+      {
+        "id": 2,
+        "name": "Mixer"
+      },
+      {
+        "id": 3,
+        "name": "Garnish"
+      }
+    ]
+  }
